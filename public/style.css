@@ -1,0 +1,642 @@
+.navbar {
+    z-index: 1;
+    text-align: center;
+    background-color: #4294f8;
+    font-family: 'Pixeboy', sans-serif;
+    scr: url('http://fonts.cdnfonts.com/css/pixeboy');
+    top: 0; /* Position the navbar at the top of the page */
+    position: fixed; /* Set the navbar to fixed position */
+    width: 100%; /* Full width */
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .nav-link {
+    color: #fff;
+  }
+  
+  .brand {
+    background-image: url('https://i.ibb.co/dWhx07P/studbud-transparent.png');
+    background-position: -5px -10px;
+    background-size: 40px;
+    background-repeat: no-repeat;
+  }
+  
+  .nav-link-7 {
+    color: #fff;
+  }
+  
+  .div-block {
+    height: 900px;
+    margin-bottom: 0px;
+    background-color: #fff;
+    background-image: url('https://i.ibb.co/8bjg2fq/Studying.png');
+    background-position: 0px 0px;
+    background-size: cover;
+    background-attachment: scroll;
+    opacity: 1;
+    color: #fff;
+  }
+  
+  .div-block-2 {
+    height: 900px;
+    margin-bottom: 0px;
+    background-color: #4294f8;
+    background-position: 0px 0px;
+    background-size: cover;
+    background-attachment: scroll;
+    opacity: 1;
+    color: #fff;
+  }
+  
+  .div-block-3 {
+    height: 900px;
+    background-color: #fff;
+    background-image: url('https://i.ibb.co/WHZ7ZdN/phone-people.png'), url('https://i.ibb.co/WHZ7ZdN/phone-people.png');
+    background-position: 0px 0px, 0px 0px;
+    background-size: cover, auto;
+  }
+  
+  .text-block {
+    padding: 125px 200px 200px;
+    font-family: 'NEXT ART', sans-serif;
+    color: #025493;
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 0px;
+  }
+  
+  .white_text {
+    color: #fff;
+  }
+  
+  .text-block-3 {
+    overflow: visible;
+    padding: 100px 200px 200px;
+    font-family: 'NEXT ART', sans-serif;
+    color: #025493;
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  .container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  
+  .studbud_button {
+    border: 2px solid #025493;
+    background-color: #fff;
+    font-family: 'Pixeboy', sans-serif;
+    scr: url('http://fonts.cdnfonts.com/css/pixeboy');
+    color: #025493;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .container-2 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  
+  .container-3 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 100px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  
+  .columns {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  
+  .column {
+    top: -100px;
+  }
+  
+  .column-2 {
+    top: -100px;
+  }
+  
+  .column-3 {
+    top: -100px;
+  }
+  
+  .studbud_group_pic {
+    display: block;
+    padding-right: 100px;
+    padding-left: 100px;
+    text-align: center;
+  }
+  
+  .studbud_text {
+    font-family: 'Glacial Indifference', sans-serif;
+    color: #025493;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+  }
+  
+  .container-4 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  
+  .container-5 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  
+  .container-6 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  
+  .column-4 {
+    top: -100px;
+  }
+  
+  .column-5 {
+    top: -100px;
+  }
+  
+  .text-block-4 {
+    padding-right: 100px;
+    padding-left: 100px;
+    font-family: 'Glacial Indifference', sans-serif;
+    color: #fff;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+  }
+  
+  .container-7 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: -100px;
+    padding-top: 0px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  
+  .container-8 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 50px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  
+  .text-block-5 {
+    font-family: 'Glacial Indifference', sans-serif;
+    font-size: 48px;
+  }
+  
+  @media screen and (max-width: 991px) {
+    .columns {
+      margin-top: 0px;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .text-block {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      padding-top: 100px;
+      padding-bottom: 0px;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      font-size: 36px;
+      line-height: 36px;
+      font-weight: 700;
+      text-align: center;
+      letter-spacing: 0px;
+    }
+  
+    
+  
+    .text-block {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      padding-top: 100px;
+      padding-bottom: 0px;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      font-size: 36px;
+      line-height: 36px;
+      font-weight: 700;
+      text-align: center;
+      letter-spacing: 0px;
+    }
+  
+  
+    .text-block-3 {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+    }
+  
+    .container-4 {
+      margin-top: 0px;
+    }
+  
+    .studbud_group_pic {
+      max-width: 50%;
+      padding-right: 0px;
+      padding-left: 0px;
+    }
+    
+  }
+  
+  @media screen and (max-width: 479px) {
+    
+    .text-block {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      padding: 125px 200px 200px;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      font-size: 36px;
+      line-height: 36px;
+    }
+  
+    .text-block-2 {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      padding-right: 0px;
+      padding-left: 0px;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      font-size: 36px;
+      line-height: 36px;
+    }
+  
+    .text-block-3 {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      padding-right: 0px;
+      padding-left: 0px;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      font-size: 36px;
+      line-height: 36px;
+    }
+  
+    .container {
+      margin-top: 0px;
+    }
+  
+    .studbud_button {
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+  
+    .columns {
+      margin-top: 50px;
+    }
+  
+    .studbud_group_pic {
+      max-width: 50%;
+      padding-right: 0px;
+      padding-left: 0px;
+    }
+  
+    .column-5 {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+    }
+  
+    .text-block-4 {
+      margin-bottom: 100px;
+      padding-right: 0px;
+      padding-left: 0px;
+      font-size: 24px;
+      line-height: 36px;
+      text-align: center;
+    }
+  
+    .text-block-5 {
+      font-size: 36px;
+      line-height: 36px;
+      text-align: center;
+    }
+  
+    .container-9 {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+    }
+  }
+  
+  .tricolumn {
+    float: left;
+    width: 33.33%;
+    padding: 0px;
+    height: 200px; 
+  }
+  
+  .tricolumn p {
+    margin: 0 auto;
+    font-size: 16px;
+    color: #000000;
+  
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .tricolumn {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width:991px)
+  {
+    .site-footer [class^=col-]
+    {
+      margin-bottom:30px;
+    }
+  }
+  @media (max-width:767px)
+  {
+    .site-footer
+    {
+      padding-bottom:0;
+    }
+    .site-footer .copyright-text,.site-footer .social-icons
+    {
+      text-align:center;
+    }
+  }
+  .social-icons
+  {
+    padding-left:0;
+    margin-bottom:0;
+    list-style:none;
+  }
+  .social-icons li
+  {
+    display:inline-block;
+    margin-bottom:4px;
+  }
+  .social-icons li.title
+  {
+    margin-right:15px;
+    text-transform:uppercase;
+    color:#96a2b2;
+    font-weight:700;
+    font-size:13px;
+  }
+  .social-icons a{
+    background-color:#eceeef;
+    color:#818a91;
+    font-size:16px;
+    display:inline-block;
+    line-height:44px;
+    width:44px;
+    height:44px;
+    text-align:center;
+    margin-right:8px;
+    border-radius:100%;
+    -webkit-transition:all .2s linear;
+    -o-transition:all .2s linear;
+    transition:all .2s linear;
+  }
+  .social-icons a:active,.social-icons a:focus,.social-icons a:hover
+  {
+    color:#fff;
+    background-color:#29aafe
+  }
+  
+  .map {
+    text-align: center;
+  }
+  .social-icons.size-sm a
+  {
+    line-height:34px;
+    height:34px;
+    width:34px;
+    font-size:14px;
+  }
+  .social-icons a.facebook:hover
+  {
+    background-color:#3b5998
+  }
+  .social-icons a.twitter:hover
+  {
+    background-color:#00aced
+  }
+  .social-icons a.linkedin:hover
+  {
+    background-color:#007bb6
+  }
+  .social-icons a.dribbble:hover
+  {
+    background-color:#ea4c89
+  }
+  @media (max-width:767px)
+  {
+    .social-icons li.title
+    {
+      display:block;
+      margin-right:0;
+      font-weight:600;
+    }
+  }
+  
+  .footer_logo {
+    transform: scale(0.5); 
+    margin-top: -50px;
+  }
+  
+  
+  @font-face {
+    font-family: 'Pixeboy', sans-serif;
+    scr: url('http://fonts.cdnfonts.com/css/pixeboy');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'NEXT ART', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'NEXT ART', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Glacial Indifference', sans-serif;
+    src: url('http://fonts.cdnfonts.com/css/glacial-indifference-2?styles=54222,54221');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  /* DEATH */ 
+  
