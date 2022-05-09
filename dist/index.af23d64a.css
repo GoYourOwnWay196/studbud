@@ -1,0 +1,438 @@
+.navbar {
+  z-index: 1;
+  text-align: center;
+  src: url("http://fonts.cdnfonts.com/css/pixeboy");
+  width: 100%;
+  background-color: #4294f8;
+  font-family: Pixeboy, sans-serif;
+  position: fixed;
+  top: 0;
+}
+
+.navbar a {
+  float: left;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.brand {
+  background-image: url("https://i.ibb.co/dWhx07P/studbud-transparent.png");
+  background-position: -5px -10px;
+  background-repeat: no-repeat;
+  background-size: 40px;
+}
+
+.nav-link-7 {
+  color: #fff;
+}
+
+.div-block {
+  height: 900px;
+  opacity: 1;
+  color: #fff;
+  background-color: #fff;
+  background-image: url("https://i.ibb.co/8bjg2fq/Studying.png");
+  background-position: 0 0;
+  background-size: cover;
+  background-attachment: scroll;
+  margin-bottom: 0;
+}
+
+.div-block-2 {
+  height: 900px;
+  opacity: 1;
+  color: #fff;
+  background-color: #4294f8;
+  background-position: 0 0;
+  background-size: cover;
+  background-attachment: scroll;
+  margin-bottom: 0;
+}
+
+.div-block-3 {
+  height: 900px;
+  background-color: #fff;
+  background-image: url("https://i.ibb.co/WHZ7ZdN/phone-people.png"), url("https://i.ibb.co/WHZ7ZdN/phone-people.png");
+  background-position: 0 0, 0 0;
+  background-size: cover, auto;
+}
+
+.text-block {
+  color: #025493;
+  text-align: center;
+  letter-spacing: 0;
+  padding: 125px 200px 200px;
+  font-family: NEXT ART, sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.white_text {
+  color: #fff;
+}
+
+.text-block-3 {
+  color: #025493;
+  text-align: center;
+  padding: 100px 200px 200px;
+  font-family: NEXT ART, sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 60px;
+  overflow: visible;
+}
+
+.container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.studbud_button {
+  src: url("http://fonts.cdnfonts.com/css/pixeboy");
+  color: #025493;
+  text-align: center;
+  background-color: #fff;
+  border: 2px solid #025493;
+  font-family: Pixeboy, sans-serif;
+  font-size: 24px;
+}
+
+.container-2 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.container-3 {
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  display: flex;
+}
+
+.columns {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.column, .column-2, .column-3 {
+  top: -100px;
+}
+
+.studbud_group_pic {
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  display: block;
+}
+
+.studbud_text {
+  color: #025493;
+  text-align: center;
+  font-family: Glacial Indifference, sans-serif;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.container-4, .container-5, .container-6 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.column-4, .column-5 {
+  top: -100px;
+}
+
+.text-block-4 {
+  color: #fff;
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-family: Glacial Indifference, sans-serif;
+  font-size: 36px;
+  line-height: 48px;
+}
+
+.container-7 {
+  justify-content: center;
+  align-items: center;
+  margin-top: -100px;
+  padding-top: 0;
+  display: flex;
+}
+
+.container-8 {
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  display: flex;
+}
+
+.text-block-5 {
+  font-family: Glacial Indifference, sans-serif;
+  font-size: 48px;
+}
+
+@media screen and (max-width: 991px) {
+  .columns {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .text-block {
+    text-align: center;
+    letter-spacing: 0;
+    text-align: center;
+    letter-spacing: 0;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 0;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 36px;
+    display: flex;
+  }
+
+  .text-block-3 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .container-4 {
+    margin-top: 0;
+  }
+
+  .studbud_group_pic {
+    max-width: 50%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .text-block {
+    justify-content: center;
+    align-items: center;
+    padding: 125px 200px 200px;
+    font-size: 36px;
+    line-height: 36px;
+    display: flex;
+  }
+
+  .text-block-2, .text-block-3 {
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 36px;
+    line-height: 36px;
+    display: flex;
+  }
+
+  .container {
+    margin-top: 0;
+  }
+
+  .studbud_button {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .columns {
+    margin-top: 50px;
+  }
+
+  .studbud_group_pic {
+    max-width: 50%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .column-5 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .text-block-4 {
+    text-align: center;
+    margin-bottom: 100px;
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .text-block-5 {
+    text-align: center;
+    font-size: 36px;
+    line-height: 36px;
+  }
+
+  .container-9 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+}
+
+.tricolumn {
+  float: left;
+  width: 33.33%;
+  height: 200px;
+  padding: 0;
+}
+
+.tricolumn p {
+  color: #000;
+  margin: 0 auto;
+  font-size: 16px;
+}
+
+.row:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media screen and (max-width: 600px) {
+  .tricolumn {
+    width: 100%;
+  }
+}
+
+@media (max-width: 991px) {
+  .site-footer [class^="col-"] {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .site-footer {
+    padding-bottom: 0;
+  }
+
+  .site-footer .copyright-text, .site-footer .social-icons {
+    text-align: center;
+  }
+}
+
+.social-icons {
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.social-icons li {
+  margin-bottom: 4px;
+  display: inline-block;
+}
+
+.social-icons li.title {
+  text-transform: uppercase;
+  color: #96a2b2;
+  margin-right: 15px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.social-icons a {
+  color: #818a91;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  -o-transition: all .2s linear;
+  background-color: #eceeef;
+  border-radius: 100%;
+  margin-right: 8px;
+  font-size: 16px;
+  line-height: 44px;
+  transition: all .2s linear;
+  display: inline-block;
+}
+
+.social-icons a:active, .social-icons a:focus, .social-icons a:hover {
+  color: #fff;
+  background-color: #29aafe;
+}
+
+.map {
+  text-align: center;
+}
+
+.social-icons.size-sm a {
+  height: 34px;
+  width: 34px;
+  font-size: 14px;
+  line-height: 34px;
+}
+
+.social-icons a.facebook:hover {
+  background-color: #3b5998;
+}
+
+.social-icons a.twitter:hover {
+  background-color: #00aced;
+}
+
+.social-icons a.linkedin:hover {
+  background-color: #007bb6;
+}
+
+.social-icons a.dribbble:hover {
+  background-color: #ea4c89;
+}
+
+@media (max-width: 767px) {
+  .social-icons li.title {
+    margin-right: 0;
+    font-weight: 600;
+    display: block;
+  }
+}
+
+.footer_logo {
+  margin-top: -50px;
+  transform: scale(.5);
+}
+
+@font-face {
+  src: url("http://fonts.cdnfonts.com/css/pixeboy");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  src: url("http://fonts.cdnfonts.com/css/glacial-indifference-2?styles=54222,54221");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/*# sourceMappingURL=index.af23d64a.css.map */
