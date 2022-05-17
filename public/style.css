@@ -125,6 +125,22 @@
   padding-top: 25px;
 }
 
+.onecolumn {
+  float: left;
+  width: 100%;
+  padding: 0px;
+  height: 580px;
+  padding-bottom: 0px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #4294f8;
+  background-color: #fff;
+}
+
+.onecolumn .text-block {
+  padding-top: 145px;
+}
+
 .tricolumn {
   float: left;
   width: 32.8%;
@@ -176,7 +192,28 @@
   font-size: 48px;
   line-height: 48px;
   font-weight: 700;
+  letter-spacing: 0px;
+}
+
+.text-block_stopwatch {
   text-align: center;
+  font-family: 'NEXT ART', sans-serif;
+  background-color: #fff;
+  color: #025493;
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 700;
+  letter-spacing: 0px;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Glacial Indifference', sans-serif;
+  background-color: #fff;
+  color: #025493;
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 700;
   letter-spacing: 0px;
 }
 
@@ -188,7 +225,17 @@ h2 {
   font-size: 24px;
   line-height: 24px;
   font-weight: 700;
+  letter-spacing: 0px;
+}
+
+h3 {
   text-align: center;
+  font-family: 'Glacial Indifference', sans-serif;
+  background-color: #fff;
+  color: #025493;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 700;
   letter-spacing: 0px;
 }
 
@@ -200,6 +247,19 @@ h2 {
 .studbud_container {
   background-color: #fff;
   text-align: center;
+}
+
+.stopwatch_container {
+  background-color: #ffffff;
+  width: 30%;
+  min-width: 400px;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+  padding: auto;
+  padding-bottom: 50px;
+  border-radius: 10px;
 }
 
 .studbud_button {
@@ -234,6 +294,37 @@ h2 {
     padding: 0;
   }
 
+#wrapper
+{
+ text-align:center;
+ margin:0 auto;
+ width:995px;
+}
+#player
+{
+ background-color:#025493;
+ width:400px;
+ margin:auto;
+ margin-top: 600px;
+ padding:5px;
+ box-sizing:border-box;
+}
+input[type="image"]
+{
+ float:left;
+ height:20px;
+ margin-left:2px;
+ margin-right:5px;
+ margin-top:2px;
+ background-color:#025493;
+}
+#vol_img
+{
+ margin-left:150px;
+ width:20px;
+ background-color:#025493;
+}
+
 @font-face {
     font-family: 'NEXT ART', sans-serif;
     font-weight: 700;
@@ -262,6 +353,12 @@ h2 {
   }
   .div-block .text-block {
   padding-top: 0;
+  }
+
+  #wrapper
+  {
+   margin-left:-150px;
+   margin-top: 1800px;
   }
 
 }

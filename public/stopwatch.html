@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar nav">
+    <div class="nav-flex">
+      <a href="#" class="nav-brand">
+        <div class="container container"><img width="50" loading="lazy" src="images/studbud-transparent.png" alt=""></div>
+      </a>
+      <nav role="navigation" class="nav-menu nav-menu">
+        <a href="#" class="nav-link"><img src="https://i.ibb.co/dWhx07P/studbud-transparent.png" loading="lazy" alt="" class="studbud_group_pic_tiny" style="width:75px;height:auto;"></a>
+        <a href="#" class="nav-link"><img src="https://i.ibb.co/x62Snzk/dashboard.png" loading="lazy" alt="" class="studbud_group_pic_tiny" style="width:20px;height:auto;">Dashboard</a>
+        <a href="#" class="nav-link"><img src="https://i.ibb.co/PCVRJNL/clock.png" loading="lazy" alt="" class="studbud_group_pic_tiny" style="width:25px;height:auto;">Timer</a>
+        <a href="#" class="nav-link"><img src="https://i.ibb.co/gdTyGHs/tick.png" loading="lazy" alt="" class="studbud_group_pic_tiny" style="width:25px;height:auto;">Tasks</a>
+        <a href="#" class="nav-link"><img src="https://i.ibb.co/fQ8YH4D/file-small.png" loading="lazy" alt="" class="studbud_group_pic_tiny" style="width:25px;height:auto;">Files</a>
+        <a href="#" class="nav-link"><img src="https://i.ibb.co/Gcx8Pj2/calendar.png" loading="lazy" alt="" class="studbud_group_pic_tiny" style="width:25px;height:auto;">Calendar</a>
+        <a href="#" class="nav-link"><img src="https://i.ibb.co/fXnPbgV/search.png" loading="lazy" alt="" class="studbud_group_pic_tiny" style="width:25px;height:auto;">Search</a>
+      </nav>
+      <div class="nav-button">
+        <div class="icon-nav-menu"></div>
+      </div>
+    </div>
+  </div>
+  <div class="div-block">
+    <div class="text-block">TIMER</div>
+  </div>
+  <div class="columns row">
+    <div class="onecolumn">
+      <div class="text-block_stopwatch">Stopwatch</div>
+      <div class="studbud_container">
+        <h3>Start, stop and reset your designated study session</h3>
+        <div class="stopwatch_container">
+        <h1>00:00:00</h1>
+        </div>
+        <a href="#" class="studbud_button">Start</a>
+        <a href="#" class="studbud_button">Lap</a>
+        <a href="#" class="studbud_button">Reset</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- http://talkerscode.com/webtricks/create-custom-audio-player-using-html5-and-javascript.php -->
+<div id="wrapper">
+<div id='player'>
+<audio id="music_player">
+<source src="song.mp3"/>
+</audio>
+<input type="image" src="https://i.ibb.co/P68SQyS/button-play.png" onclick="play_aud()" id="play_button">
+<input type="image" src="https://i.ibb.co/s5BpLYb/button-pause.png" onclick="pause_aud()" id="play_button">
+<input type="image" src="https://i.ibb.co/pwKjJP9/button-stop.png" onclick="stop_aud()" id="play_button">
+<img src="https://i.ibb.co/C08PDtx/button-volume.png" id="vol_img">
+<input type="range" id="change_vol" onchange="change_vol()" step="0.05" min="0" max="1" value="1">
+</div>
+</div>
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
