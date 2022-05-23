@@ -1,5 +1,4 @@
 // http://talkerscode.com/webtricks/create-custom-audio-player-using-html5-and-javascript.php
-
 document.addEventListener("DOMContentLoaded", function() { startplayer(); }, false);
 var player;
 
