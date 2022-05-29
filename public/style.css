@@ -335,6 +335,205 @@ h3 {
     outline: none;
 }
 
+
+.kanban-container {
+  background-color: #ffffff;
+  width: 70%;
+  min-width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.kanban-heading {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: sans-serif;
+}
+
+.kanban-board {
+  background-color: #ffffff;
+  display: flex;
+  margin-left: 160px;
+  margin-right: 10px;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: sans-serif;
+}
+
+.kanban-block strong{
+  text-align: center;
+  font-family: 'Glacial Indifference', sans-serif;
+  background-color: #fff;
+  color: #025493;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 700;
+  letter-spacing: 0px;
+}
+
+.kanban-block,
+.create-new-task-block {
+  background-color: #ffffff;
+  padding: 0.6rem;
+  width: 30.5%;
+  min-width: 14rem;
+  min-height: 4.5rem;
+  border-radius: 0.3rem;
+}
+
+.task {
+  background-color: #ffffff;
+  margin: 0.2rem 0rem 0.3rem 0rem;
+  border: 0.1rem solid black;
+  border-radius: 0.2rem;
+  padding: 0.5rem 0.2rem 0.5rem 2rem;
+}
+
+.task-button-block{
+  background-color: #ebebeb;
+}
+
+.task span{
+  text-align: center;
+  font-family: 'Glacial Indifference', sans-serif;
+  background-color: #fff;
+  color: #025493;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 700;
+  letter-spacing: 0px;
+}
+
+.task-h3{
+  text-align: center;
+  font-family: 'Glacial Indifference', sans-serif;
+  background-color: #025493;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.create-new-task-block {
+  background-color: #ffffff;
+  display: none;
+  font-family: 'Glacial Indifference', sans-serif;
+  /* display: flex; */
+  background: #025493;
+  width: 64.4%;
+  flex-direction: column;
+}
+
+.create-new-task-block strong {
+  background-color: #025493;
+  font-family: 'Glacial Indifference', sans-serif;
+  color: #fff
+}
+
+.form-row {
+  background-color: #025493;
+  font-family: 'Glacial Indifference', sans-serif;
+  display: flex;
+  flex-direction: row;
+  margin: 0.2rem;
+}
+
+.form-row-label {
+  background-color: #ffffff;
+  font-family: 'Glacial Indifference', sans-serif;
+  width: 15%;
+  padding: 0.2rem;
+  padding-right: 0.5rem;
+  border: 0.1rem solid black;
+  border-right: 0;
+  border-radius: 0.2rem 0rem 0rem 0.2rem;
+}
+
+.form-row-input {
+  background-color: #ffffff;
+  font-family: 'Glacial Indifference', sans-serif;
+  border: 0.1rem solid black;
+  border-radius: 0rem 0.2rem 0.2rem 0rem;
+  width: 85%;
+}
+
+textarea {
+  background-color: #ffffff;
+  font-family: 'Glacial Indifference', sans-serif;
+  resize: none;
+}
+
+.form-row-buttons {
+  background-color:  #025493;
+  font-family: 'Glacial Indifference', sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0.2rem;
+}
+
+#edit-button,
+#save-button,
+#cancel-button {
+  font-family: 'Glacial Indifference', sans-serif;
+  margin: 0.2rem 0rem 0.1rem 0rem;
+  background-color: white;
+  border-radius: 0.2rem;
+  width: 49.2%;
+  border: 0.25rem solid black;
+  padding: 0.5rem 2.7rem;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+}
+
+#edit-button {
+  font-family: 'Glacial Indifference', sans-serif;
+  background-color: #ffffff;
+  display: none;
+}
+
+#todo {
+  background-color: #ebebeb;
+}
+
+#todo strong {
+  background-color: #ebebeb;
+}
+
+#inprogress {
+  background-color: #D0D9E8;
+  /* display: none; */
+}
+
+#inprogress strong {
+  background-color: #D0D9E8;
+  /* display: none; */
+}
+
+#done {
+  background-color: #B9CCEA;
+  /* display: none; */
+}
+
+#done strong{
+  background-color: #B9CCEA;
+  /* display: none; */
+}
+
+
+#task-button {
+  margin: 0.2rem 0rem 0.1rem 0rem;
+  background-color: #025493;
+  border-radius: 0.2rem;
+  width: 100%;
+  border: 0.1rem solid black;
+  padding: 0.5rem 2.7rem;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+}
+
 #wrapper
 {
  text-align:center;
