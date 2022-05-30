@@ -474,6 +474,10 @@ textarea {
   margin: 0.2rem;
 }
 
+.redirect {
+  background-color: #fff
+}
+
 #edit-button,
 #save-button,
 #cancel-button {
