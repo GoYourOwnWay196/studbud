@@ -28,30 +28,39 @@
       </div>
     </div>
   </div>
+  
   <div class="div-block">
-    <div class="text-block">TIMER</div>
+    
+    <div class="text-block">DICTIONARY</div>
   </div>
+  
   <div class="columns row">
+    
     <div class="onecolumn">
-      <div class="text-block_stopwatch">Stopwatch</div>
-      <div class="studbud_container">
-        <h3>Start, stop and reset your designated study session</h3>
+      
+      <div class="text-block_stopwatch">Search</div>
 
-        <!-- https://www.foolishdeveloper.com/2021/10/simple-stopwatch-using-javascript.html -->
-        <div class="stopwatch_container">
-        <div class="timerDisplay">
-         00 : 00 : 00 : 000
+      <audio id="sound"></audio>
+        <div class="dictionary_container">
+            <div class="search-box">
+                <input
+                    type="text"
+                    placeholder="Type the word here.."
+                    id="inp-word"
+                />
+                <button id="search-btn">Search</button>
+            </div>
+            <div class="result" id="result"></div>
         </div>
-          <div class="stopwatch_buttons">
-          <button id="pauseTimer">Pause</button>
-          <button id="startTimer">Start</button>
-          <button id="resetTimer">Reset</button>
-        </div>
-          <h3><a class='redirect' href='pomodoro.html'>Pomodoro Mode</a></h3>
-        </div>
-      </div>
-    </div>
-  </div>
+
+  
+
+
+      
+      
+</div>
+</div>
+
 
   <!-- http://talkerscode.com/webtricks/create-custom-audio-player-using-html5-and-javascript.php -->
 <div id="wrapper">
@@ -66,6 +75,7 @@
 <input type="range" id="change_vol" onchange="change_vol()" step="0.05" min="0" max="1" value="1">
 </div>
 </div>
+  
   
   <script src="script.js"></script>
 </body>
