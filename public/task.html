@@ -103,21 +103,32 @@
   </div>
 
 
-  <!-- http://talkerscode.com/webtricks/create-custom-audio-player-using-html5-and-javascript.php -->
+<!-- http://talkerscode.com/webtricks/create-custom-audio-player-using-html5-and-javascript.php -->
+<!-- A feature from the design brief I modified is the audio player. Instead of being just a giant play button, it is now a toolbar with stop, pause buttons and a volume adjuster. -->
 <div id="wrapper">
 <div id='player'>
 <audio id="music_player">
+
+<!-- It's my own original song!! Inspired by the great works of Toby Fox...-->
 <source src="song.mp3"/>
 </audio>
+
+<!-- When clicked, should play the song -->
 <input type="image" src="https://i.ibb.co/P68SQyS/button-play.png" onclick="play_aud()" id="play_button">
+
+<!-- When clicked, should pause the song -->
 <input type="image" src="https://i.ibb.co/s5BpLYb/button-pause.png" onclick="pause_aud()" id="play_button">
+
+<!-- When clicked, should stop the song -->
 <input type="image" src="https://i.ibb.co/pwKjJP9/button-stop.png" onclick="stop_aud()" id="play_button">
+
+<!-- Volume range mapped throughout a scale -->
 <img src="https://i.ibb.co/C08PDtx/button-volume.png" id="vol_img">
 <input type="range" id="change_vol" onchange="change_vol()" step="0.05" min="0" max="1" value="1">
 </div>
 </div>
   
-  
+<!-- Referencing script.js, the javascript file for the entire app -->
   <script src="script.js"></script>
 </body>
 
