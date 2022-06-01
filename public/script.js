@@ -184,36 +184,8 @@ function displayTimer(){
  timerRef.innerHTML = ` ${h} : ${m} : ${s} : ${ms}`;
 }
 
-// http://talkerscode.com/webtricks/create-custom-audio-player-using-html5-and-javascript.php
-
-document.addEventListener("DOMContentLoaded", function() { startplayer(); }, false);
-var player;
-
-function startplayer() 
-{
- player = document.getElementById('music_player');
- player.controls = false;
-}
-
-function play_aud() 
-{
- player.play();
-} 
-function pause_aud() 
-{
- player.pause();
-}
-function stop_aud() 
-{
- player.pause();
- player.currentTime = 0;
-}
-function change_vol()
-{
- player.volume=document.getElementById("change_vol").value;
-}
-
 // https://karthikdevarticles.com/creating-a-kanban-board-with-html-css-and-javascript
+// Task Manager starts here
 function drag(ev) {
             ev.dataTransfer.setData("text", ev.target.id);
         }
@@ -276,6 +248,7 @@ function drag(ev) {
         }
 
 // https://codegyan.in/articles/build-a-dictionary-app-in-html-css-javascript.htm
+// Dictionary starts here
 
 const url = "https://api.dictionaryapi.dev/api/v2/entries/en/";
 const result = document.getElementById("result");
@@ -308,6 +281,6 @@ btn.addEventListener("click", () => {
             sound.setAttribute("src", `https:${data[0].phonetics[0].audio}`);
         })
         .catch(() => {
-            result.innerHTML = `<h3 class="error">Unable to find the word</h3>`;
+            result.innerHTML = `<h3 class="error">Couldn't Find The Word</h3>`;
         });
 });
