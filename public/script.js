@@ -1,5 +1,4 @@
 // https://codegyan.in/articles/build-a-dictionary-app-in-html-css-javascript.htm
-// Dictionary starts here
 
 const url = "https://api.dictionaryapi.dev/api/v2/entries/en/";
 const result = document.getElementById("result");
@@ -35,6 +34,9 @@ btn.addEventListener("click", () => {
             result.innerHTML = `<h3 class="error">Couldn't Find The Word</h3>`;
         });
 });
+function playSound() {
+    sound.play();
+}
 
 // http://talkerscode.com/webtricks/create-custom-audio-player-using-html5-and-javascript.php
 // Music player starts here
