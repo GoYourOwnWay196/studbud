@@ -337,7 +337,7 @@ p {
 /* Task manager elements */
 .kanban-container {
   background-color: #ffffff;
-  width: 70%;
+  width: 100%;
   min-width: 50%;
   margin: auto;
   display: flex;
