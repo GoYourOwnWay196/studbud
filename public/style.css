@@ -1,11 +1,11 @@
-/* HEY EVERY !! DON'T FORGET TO [Copy and Paste] */
-
+/* Main background colour is light blue */
 * {
   background-color: #4294f8;
   padding: 0;
   margin: 0;
 }
 
+/* Navigation bar is fixed and is positioned at the left */
 .navbar {
   position: fixed;
   left: 0%;
@@ -129,6 +129,7 @@
   padding-top: 25px;
 }
 
+/* Columns */
 .onecolumn {
   float: left;
   width: 100%;
@@ -171,23 +172,7 @@
 
 }
 
-.column-2 {
-  padding-bottom: 0px;
-  padding-left: 0px;
-  border-style: solid;
-  border-width: 3px;
-  border-color: #4294f8;
-  background-color: #fff;
-}
-
-.column-3 {
-  padding-bottom: 0px;
-  border-style: solid;
-  border-width: 3px;
-  border-color: #4294f8;
-  background-color: #fff;
-}
-
+/* Big text */
 .text-block {
   text-align: center;
   font-family: 'NEXT ART', sans-serif;
@@ -199,7 +184,8 @@
   letter-spacing: 0px;
 }
 
-.text-block_stopwatch {
+/* Not so big text */
+.text-block-div {
   text-align: center;
   font-family: 'NEXT ART', sans-serif;
   background-color: #fff;
@@ -210,6 +196,7 @@
   letter-spacing: 0px;
 }
 
+/* Classic HTML elements */
 h1 {
   text-align: center;
   font-family: 'Glacial Indifference', sans-serif;
@@ -254,6 +241,7 @@ p {
   background-color: #fff;
 }
 
+/* Custom containers */
 .studbud_container {
   background-color: #fff;
   text-align: center;
@@ -275,6 +263,7 @@ p {
 }
 
 /* https://www.foolishdeveloper.com/2021/10/simple-stopwatch-using-javascript.html */
+/* Stopwatch */
 .timerDisplay{
     position: relative;
     width: 92%;
@@ -291,6 +280,7 @@ p {
     font-size: 60px;
 }
 
+/* Custom buttons/icons */
 .studbud_button {
     display: inline-block;
     border: 2px solid #025493;
@@ -323,6 +313,7 @@ p {
     padding: 0;
   }
 
+/* Stopwatch elements */
 .stopwatch_buttons{
     background-color: #ffffff;
     width: 90%;
@@ -343,7 +334,7 @@ p {
     outline: none;
 }
 
-
+/* Task manager elements */
 .kanban-container {
   background-color: #ffffff;
   width: 70%;
@@ -487,7 +478,7 @@ textarea {
 }
 
 /* https://codingartistweb.com/2021/09/dictionary-app-html-css-and-javascript/ */
-
+/* Dictionary elements */
 .dictionary_container {
     background-color: #ffffff;
     width: 90vmin;
@@ -501,13 +492,13 @@ textarea {
     box-shadow: 0 20px 40px rgba(38, 33, 61, 0.2);
 }
 .search-box {
-    color: #fff
+    color: #fff;
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
 .search-box input {
-    color: #fff
+    color: #fff;
     padding: 5px;
     width: 70%;
     border: none;
@@ -526,28 +517,28 @@ textarea {
 }
 .result {
     position: relative;
-    background-color: #fff
+    background-color: #fff;
 }
 .result h3 {
     font-size: 30px;
     color: #1f194c;
-    background-color: #fff
+    background-color: #fff;
 }
 .result .word {
     display: flex;
     justify-content: space-between;
     margin-top: 80px;
-    background-color: #fff
+    background-color: #fff;
 }
 .result button {
-    background-color: #fff
+    background-color: #fff;
     color: #025493;
     border: none;
     outline: none;
     font-size: 18px;
 }
 .result .details {
-    background-color: #fff
+    background-color: #fff;
     display: flex;
     gap: 10px;
     color: #b3b6d4;
@@ -555,11 +546,11 @@ textarea {
     font-size: 14px;
 }
 .word-meaning {
-    background-color: #fff
+    background-color: #fff;
     color: #575a7b;
 }
 .word-example {
-    background-color: #fff
+    background-color: #fff;
     color: #575a7b;
     font-style: italic;
     border-left: 5px solid #025493;
@@ -568,7 +559,7 @@ textarea {
 }
 
 .error {
-    background-color: #fff  
+    background-color: #fff;
     margin-top: 80px;
     text-align: center;
 }

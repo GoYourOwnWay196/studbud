@@ -1,14 +1,17 @@
+/* Stylesheet for homepage (index.html) only! */
+/* Navigation bar */
 .navbar {
     z-index: 1;
     text-align: center;
     background-color: #4294f8;
     font-family: 'Pixeboy', sans-serif;
     src: url('http://fonts.cdnfonts.com/css/pixeboy');
-    top: 0; /* Position the navbar at the top of the page */
-    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position at page's top */
+    position: fixed; /* Should not move */
     width: 100%; /* Full width */
   }
   
+  /* Small text */
   .navbar a {
     float: left;
     font-size: 16px;
@@ -22,6 +25,7 @@
     color: #fff;
   }
   
+  /* Logo */
   .brand {
     background-image: url('https://i.ibb.co/dWhx07P/studbud-transparent.png');
     background-position: -5px -10px;
@@ -29,10 +33,13 @@
     background-repeat: no-repeat;
   }
   
+  /* Top, middle and bottom section of page */
   .div-block-top {
     height: 900px;
     margin-bottom: 0px;
     background-color: #fff;
+
+    /* Background */
     background-image: url('https://i.ibb.co/8bjg2fq/Studying.png');
     background-position: 0px 0px;
     background-size: cover;
@@ -41,6 +48,7 @@
     color: #fff;
   }
   
+  /* Middle section has a different background colour to contrast with the other two */
   .div-block-middle {
     height: 900px;
     margin-bottom: 0px;
@@ -54,12 +62,15 @@
   
   .div-block-bottom {
     height: 900px;
+
+    /* Background */
     background-color: #fff;
     background-image: url('https://i.ibb.co/WHZ7ZdN/phone-people.png'), url('https://i.ibb.co/WHZ7ZdN/phone-people.png');
     background-position: 0px 0px, 0px 0px;
     background-size: cover, auto;
   }
   
+  /* All-cap headers */
   .text-block {
     padding: 125px 200px 200px;
     font-family: 'NEXT ART', sans-serif;
@@ -71,6 +82,7 @@
     letter-spacing: 0px;
   }
   
+  /* Descriptions */
   .text-block-small {
     margin-bottom: 100px;
     font-family: 'Glacial Indifference', sans-serif;
@@ -96,6 +108,7 @@
     color: #fff;
   }
   
+  /* Containers should be in the middle */
   .container {
     display: -webkit-box;
     display: -webkit-flex;
@@ -111,6 +124,7 @@
     align-items: center;
   }
   
+  /* Button has cool pixelated font and has centered text!! */
   .studbud_button {
     border: 2px solid #025493;
     background-color: #fff;
@@ -121,6 +135,7 @@
     text-align: center;
   }
 
+  /* Padding of columns */
   .columns {
     padding-top: 0px;
     padding-bottom: 0px;
@@ -130,6 +145,7 @@
     top: -100px;
   }
   
+  /* Pictures formatted with a slight margin on each side */
   .studbud_group_pic {
     display: block;
     padding-right: 100px;
@@ -137,6 +153,7 @@
     text-align: center;
   }
   
+  /* More small text */
   .studbud_text {
     font-family: 'Glacial Indifference', sans-serif;
     color: #025493;
@@ -145,6 +162,7 @@
     text-align: center;
   }
   
+  /* Container to fit three columns inside should be centered */
   .tricolumn_container {
     display: -webkit-box;
     display: -webkit-flex;
@@ -159,15 +177,8 @@
     -ms-flex-align: center;
     align-items: center;
   }
-
-  .column-4 {
-    top: -100px;
-  }
   
-  .column-5 {
-    top: -100px;
-  }
-  
+  /* Pictures in container have to be adjusted so they do not touch the top */
   .container-pic {
     display: -webkit-box;
     display: -webkit-flex;
@@ -201,11 +212,7 @@
     align-items: center;
   }
   
-  .text-block-5 {
-    font-family: 'Glacial Indifference', sans-serif;
-    font-size: 48px;
-  }
-  
+  /* Tablet and phone adjustments - mainly ensuring that everything fits in the page, and columns are now on top of each other */
   @media screen and (max-width: 991px) {
     .columns {
       margin-top: 0px;
@@ -307,27 +314,6 @@
       line-height: 36px;
     }
   
-  
-  
-    .text-block-3 {
-      display: -webkit-box;
-      display: -webkit-flex;
-      display: -ms-flexbox;
-      display: flex;
-      padding-right: 0px;
-      padding-left: 0px;
-      -webkit-box-pack: center;
-      -webkit-justify-content: center;
-      -ms-flex-pack: center;
-      justify-content: center;
-      -webkit-box-align: center;
-      -webkit-align-items: center;
-      -ms-flex-align: center;
-      align-items: center;
-      font-size: 36px;
-      line-height: 36px;
-    }
-  
     .container {
       margin-top: 0px;
     }
@@ -347,39 +333,6 @@
       padding-left: 0px;
     }
   
-    .column-5 {
-      display: -webkit-box;
-      display: -webkit-flex;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: center;
-      -webkit-justify-content: center;
-      -ms-flex-pack: center;
-      justify-content: center;
-      -webkit-box-align: center;
-      -webkit-align-items: center;
-      -ms-flex-align: center;
-      align-items: center;
-    }
-  
-    
-  
-    .container-9 {
-      display: -webkit-box;
-      display: -webkit-flex;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: center;
-      -webkit-justify-content: center;
-      -ms-flex-pack: center;
-      justify-content: center;
-      -webkit-box-align: center;
-      -webkit-align-items: center;
-      -ms-flex-align: center;
-      align-items: center;
-    }
-  }
-  
   .tricolumn {
     float: left;
     width: 33.33%;
@@ -394,14 +347,13 @@
   
   }
   
-  /* Clear floats after the columns */
+  /* Clear floats after columns */
   .row:after {
     content: "";
     display: table;
     clear: both;
   }
   
-  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
     .tricolumn {
       width: 100%;
@@ -413,92 +365,6 @@
     .site-footer [class^=col-]
     {
       margin-bottom:30px;
-    }
-  }
-  @media (max-width:767px)
-  {
-    .site-footer
-    {
-      padding-bottom:0;
-    }
-    .site-footer .copyright-text,.site-footer .social-icons
-    {
-      text-align:center;
-    }
-  }
-  .social-icons
-  {
-    padding-left:0;
-    margin-bottom:0;
-    list-style:none;
-  }
-  .social-icons li
-  {
-    display:inline-block;
-    margin-bottom:4px;
-  }
-  .social-icons li.title
-  {
-    margin-right:15px;
-    text-transform:uppercase;
-    color:#96a2b2;
-    font-weight:700;
-    font-size:13px;
-  }
-  .social-icons a{
-    background-color:#eceeef;
-    color:#818a91;
-    font-size:16px;
-    display:inline-block;
-    line-height:44px;
-    width:44px;
-    height:44px;
-    text-align:center;
-    margin-right:8px;
-    border-radius:100%;
-    -webkit-transition:all .2s linear;
-    -o-transition:all .2s linear;
-    transition:all .2s linear;
-  }
-  .social-icons a:active,.social-icons a:focus,.social-icons a:hover
-  {
-    color:#fff;
-    background-color:#29aafe
-  }
-  
-  .map {
-    text-align: center;
-  }
-  .social-icons.size-sm a
-  {
-    line-height:34px;
-    height:34px;
-    width:34px;
-    font-size:14px;
-  }
-  .social-icons a.facebook:hover
-  {
-    background-color:#3b5998
-  }
-  .social-icons a.twitter:hover
-  {
-    background-color:#00aced
-  }
-  .social-icons a.linkedin:hover
-  {
-    background-color:#007bb6
-  }
-  .social-icons a.dribbble:hover
-  {
-    background-color:#ea4c89
-  }
-  @media (max-width:767px)
-  {
-    .social-icons li.title
-    {
-      display:block;
-      margin-right:0;
-      font-weight:600;
     }
   }
   
@@ -538,5 +404,4 @@
     font-display: swap;
   }
   
-  /* DEATH */ 
-  
+}

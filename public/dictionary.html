@@ -38,27 +38,31 @@
     </div>
   </div>
   
+  <!-- Dictionary starts here -->
   <div class="div-block">
-    
     <div class="text-block">DICTIONARY</div>
   </div>
-  
   <div class="columns row">
-    
     <div class="onecolumn">
-      
-      <div class="text-block_stopwatch">Search</div>
+      <div class="text-block-div">Search</div>
 
-      <audio id="sound"></audio>
         <div class="dictionary_container">
+
+          <!-- Draw earch box -->
             <div class="search-box">
+
+              <!-- Request word input from user -->
                 <input
                     type="text"
-                    placeholder="Type the word here.."
+                    placeholder="Type your designated word here."
                     id="inp-word"
                 />
+
+                <!-- Search button beside -->
                 <button id="search-btn">Search</button>
             </div>
+
+            <!-- Result that shows up when you search -->
             <div class="result" id="result"></div>
         </div>
 

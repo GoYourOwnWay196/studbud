@@ -1,13 +1,16 @@
 // http://talkerscode.com/webtricks/create-custom-audio-player-using-html5-and-javascript.php
+// Music player starts here
 document.addEventListener("DOMContentLoaded", function() { startplayer(); }, false);
 var player;
 
+// Music player is initially off
 function startplayer() 
 {
  player = document.getElementById('music_player');
  player.controls = false;
 }
 
+// Functions to play, pause, stop and change the volume of the music
 function play_aud() 
 {
  player.play();
@@ -28,7 +31,10 @@ function change_vol()
 
 
 // https://www.developintelligence.com/blog/2016/10/comparing-javascript-jquery-build-a-pomodoro-timer/
+// Pomodoro timer starts here
 var pomodoro = {
+
+    // Initialise time
     started : false,
     minutes : 0,
     seconds : 0,
@@ -40,12 +46,16 @@ var pomodoro = {
     fillerDom : null,
     init : function(){
       var self = this;
+
+      // Use the query selector to manipulate parts of the html
       this.minutesDom = document.querySelector('#minutes');
       this.secondsDom = document.querySelector('#seconds');
       this.fillerDom = document.querySelector('#filler');
       this.interval = setInterval(function(){
         self.intervalCallback.apply(self);
       }, 1000);
+
+      // Get the buttons to work
       document.querySelector('#work').onclick = function(){
         self.startWork.apply(self);
       };
@@ -59,6 +69,8 @@ var pomodoro = {
         self.stopTimer.apply(self);
       };
     },
+
+    // Default variables are in the form of minutes, seconds and boolean logic determining whether the timer has been reset
     resetVariables : function(mins, secs, started){
       this.minutes = mins;
       this.seconds = secs;
@@ -66,12 +78,19 @@ var pomodoro = {
       this.fillerIncrement = 200/(this.minutes*60);
       this.fillerHeight = 0;  
     },
+
+    // Get the buttons to work
+    // Pomodoro's default time is 25 minutes
     startWork: function() {
       this.resetVariables(25, 0, true);
     },
+
+    // Default time of short break is 5 minutes
     startShortBreak : function(){
       this.resetVariables(5, 0, true);
     },
+
+    // Default time of long break is 15 minutes
     startLongBreak : function(){
       this.resetVariables(15, 0, true);
     },
@@ -79,18 +98,24 @@ var pomodoro = {
       this.resetVariables(25, 0, false);
       this.updateDom();
     },
+
+    // Ensure that digits do not go over 9
     toDoubleDigit : function(num){
       if(num < 10) {
         return "0" + parseInt(num, 10);
       }
       return num;
     },
+
+    // Link to html
     updateDom : function(){
       this.minutesDom.innerHTML = this.toDoubleDigit(this.minutes);
       this.secondsDom.innerHTML = this.toDoubleDigit(this.seconds);
       this.fillerHeight = this.fillerHeight + this.fillerIncrement;
       this.fillerDom.style.height = this.fillerHeight + 'px';
     },
+
+    // Count down
     intervalCallback : function(){
       if(!this.started) return false;
       if(this.seconds == 0) {
@@ -283,9 +308,6 @@ btn.addEventListener("click", () => {
             sound.setAttribute("src", `https:${data[0].phonetics[0].audio}`);
         })
         .catch(() => {
-            result.innerHTML = `<h3 class="error">Couldn't Find The Word</h3>`;
+            result.innerHTML = `<h3 class="error">Unable to find the word</h3>`;
         });
 });
-function playSound() {
-    sound.play();
-}

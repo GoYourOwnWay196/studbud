@@ -37,25 +37,33 @@
       </div>
     </div>
   </div>
+
+  <!-- Timer starts here. As shown on the bottom of the page, users can switch between stopwatch and pomodoro timers. -->
   <div class="div-block">
     <div class="text-block">TIMER</div>
   </div>
   <div class="columns row">
     <div class="onecolumn">
-      <div class="text-block_stopwatch">Stopwatch</div>
+      <div class="text-block-div">Stopwatch</div>
       <div class="studbud_container">
         <h3>Start, stop and reset your designated study session</h3>
 
         <!-- https://www.foolishdeveloper.com/2021/10/simple-stopwatch-using-javascript.html -->
         <div class="stopwatch_container">
+
+        <!-- Time initialised to zeroes -->
         <div class="timerDisplay">
          00 : 00 : 00 : 000
         </div>
+
+          <!-- The user can adjust the time in three ways - stop, start and reset -->
           <div class="stopwatch_buttons">
           <button id="pauseTimer">Pause</button>
           <button id="startTimer">Start</button>
           <button id="resetTimer">Reset</button>
         </div>
+
+          <!-- As mentioned above, users can alternate within timer modes -->
           <h3><a class='redirect' href='pomodoro.html'>Pomodoro Mode</a></h3>
         </div>
       </div>

@@ -37,17 +37,21 @@
       </div>
     </div>
   </div>
+
+  <!-- Timer starts here. As shown on the bottom of the page, users can switch between stopwatch and pomodoro timers. -->
   <div class="div-block">
     <div class="text-block">TIMER</div>
   </div>
   <div class="columns row">
     <div class="onecolumn">
-      <div class="text-block_stopwatch">Pomodoro</div>
+      <div class="text-block-div">Pomodoro</div>
       <h3>Start, stop and reset your designated study session</h3>
       <div id=“pomodoro_app style="background-color: #ffffff;">
  <div id=“pomodoro_container” style="background-color: #ffffff;">
         <div id=“pomodoro_timer” style="background-color: #ffffff;">
         <div id="time" style="background-color: #ffffff;">
+
+    <!-- Pomodoro timer starts at 25 minutes instead of zero, and counts downwards instead of up -->
     <span id="minutes" style="background-color: #ffffff;">25</span>
     <span id="colon" style="background-color: #ffffff;">:</span>
     <span id="seconds" style="background-color: #ffffff;">00</span>
@@ -55,10 +59,14 @@
         <div id="filler" style="background-color: #ffffff;"></div>
         </div>
         <div id="pomodoro_buttons" style="background-color: #ffffff;">
+
+        <!-- Adjust by starting, stopping pomodoros, short breaks and long breaks -->
         <button id="work" >Work</button>
         <button id="shortBreak">Short Break</button>
         <button id="longBreak">Long Break</button>
         <button id="stop">Stop</button>
+
+          <!-- As mentioned above, users can alternate within timer modes -->
           <h3><a class='redirect' href='stopwatch.html'>Stopwatch Mode</a></h3>
 </div>
  </div>

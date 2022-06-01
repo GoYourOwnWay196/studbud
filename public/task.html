@@ -37,44 +37,53 @@
       </div>
     </div>
   </div>
+
+  <!-- Task manager starts here -->
   <div class="div-block">
     <div class="text-block">TASK MANAGER</div>
   </div>
-  
-
-  <!--<div class="kanban-container"> -->
+  <div class="kanban-container"> 
   <div class="onecolumn">
 
-    
+    <!-- Task manager is in the form of a kanban board -->
         <div class="kanban-heading">
-            <div class="text-block_stopwatch">KANBAN BOARD</div>
+            <div class="text-block-div">KANBAN BOARD</div>
         </div>
-
         <h3>Create tasks and drag them depending on your progress</h3>
-    
         <div class="kanban-board">
-          
+
+          <!-- Initialise the 'in progress' section, allow tasks to be dragged there -->
             <div class="kanban-block" id="todo" ondrop="drop(event)" ondragover="allowDrop(event)">
-                <strong>To Do</strong>
+                <strong>Requested</strong>
                 <div class="task-button-block">
+
+                  <!-- With the click of a button, you can create a new task -->
                     <button id="task-button" onclick="createTask()"><div class="task-h3">Create new task</div>
                 </div>
+
+                <!-- Make task draggable, prove by starting with an example task -->
                 <div class="task" id="task1" draggable="true" ondragstart="drag(event)">
-                    <span>Task 1</span>
+                    <span>First Task</span>
                 </div>
             </div>
+
+            <!-- Initialise the 'in progress' section, allow tasks to be dragged there -->
             <div class="kanban-block" id="inprogress" ondrop="drop(event)" ondragover="allowDrop(event)">
                 <strong>In Progress</strong>
             </div>
+
+            <!-- Initialise the 'done' section, allow tasks to be dragged there -->
             <div class="kanban-block" id="done" ondrop="drop(event)" ondragover="allowDrop(event)">
                 <strong>Done</strong>
             </div>
 
-          
+            <!-- Show new task menu when clicking on the create button -->
             <div class="create-new-task-block" id="create-new-task-block">
-                <strong>New Task</strong>
+                <strong>Create Task</strong>
+
+                <!-- Tasks vary depending on name, description and status -->
                 <span class="form-row">
-                    <label class="form-row-label" for="task-name">Task</label>
+                    <label class="form-row-label" for="task-name">Name</label>
                     <input class="form-row-input" type="text" name="task-name" id="task-name">
                 </span>
                 <span class="form-row">
@@ -84,12 +93,14 @@
                 <span class="form-row">
                     <label class="form-row-label" for="task-name">Status</label>
                     <select class="form-row-input" name="task-status" id="task-status">
-                        <option value="todo">To Do</option>
+                        <option value="todo">Requested</option>
                         <option value="inprogress">In Progress</option>
                         <option value="done">Done</option>
                     </select>
                 </span>
                 <span class="form-row-buttons">
+
+                    <!-- Users can perform three actions to a task - readjust, save or cancel -->
                     <button id="edit-button" onclick="editTask()">Edit</span>
                     <button id="save-button" onclick="saveTask()">Save</span>
                     <button id="cancel-button" onclick="createTask()">Cancel</span>
