@@ -2,6 +2,8 @@
 ## Overview 
 As stated in the design brief, my web application StudBud focuses on employing a number of tools to help fellow students in need of studying. These tools include a stopwatch, task manager and dictionary, alongside a music player at the bottom of each page in the app. Icons and music are all custom made - now that I think about it I guess I prioritised stylisation over the rest of the project...
 
+Start from **index.html**, then click on **create.html** for the dashboard. App pages include **stopwatch.html** and **pomodoro.html** for the timer, task.html for the kanban board and **dictionary.html** for the dictionary.
+
 ## Feedback + Challenges
 As evident in my feedback for the design brief, I was awarded for my design approach to help students study in the most positive mood, with simple colour psychology and rule of thirds dictating many pages of the StudBud website.
 
