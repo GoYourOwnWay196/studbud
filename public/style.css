@@ -3,6 +3,7 @@
   background-color: #4294f8;
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 /* Navigation bar is fixed and is positioned at the left */
@@ -262,7 +263,7 @@ p {
   border-radius: 10px;
 }
 
-/* https://www.foolishdeveloper.com/2021/10/simple-stopwatch-using-javascript.html */
+/* Jana, S. (2022, April 26). Create a simple stopwatch using JavaScript (tutorial + code). Foolish Developer. Retrieved June 3, 2022, from https://www.foolishdeveloper.com/2021/10/simple-stopwatch-using-javascript.html */
 /* Stopwatch */
 .timerDisplay{
     position: relative;
@@ -333,7 +334,7 @@ p {
     cursor: pointer;
     outline: none;
 }
-
+/* Karthik. (2022, April 25). Creating a Kanban Board with HTML, CSS &amp; JavaScript. Karthik Dev Articles. Retrieved June 3, 2022, from https://karthikdevarticles.com/creating-a-kanban-board-with-html-css-and-javascript */
 /* Task manager elements */
 .kanban-container {
   background-color: #ffffff;
@@ -477,7 +478,7 @@ textarea {
   background-color: #fff
 }
 
-/* https://codingartistweb.com/2021/09/dictionary-app-html-css-and-javascript/ */
+/* Yelne, P. (2022, January 3). Build a dictionary app in HTML CSS &amp; JavaScript. Codegyan. Retrieved June 3, 2022, from https://codegyan.in/articles/build-a-dictionary-app-in-html-css-javascript.htm */
 /* Dictionary elements */
 .dictionary_container {
     background-color: #ffffff;
@@ -661,6 +662,8 @@ input[type="image"]
  background-color:#025493;
 }
 
+/* Collier, J. (2021, May 6). Comparing Javascript &amp; jQuery through building a pomodoro timer. DevelopIntelligence. Retrieved June 3, 2022, from https://www.developintelligence.com/blog/2016/10/comparing-javascript-jquery-build-a-pomodoro-timer/ */
+/* Pomodoro */
 #pomodoro_app{
   background-color:#ffffff;
 }

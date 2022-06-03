@@ -1,4 +1,4 @@
-// https://codegyan.in/articles/build-a-dictionary-app-in-html-css-javascript.htm
+// Yelne, P. (2022, January 3). Build a dictionary app in HTML CSS &amp; JavaScript. Codegyan. Retrieved June 3, 2022, from https://codegyan.in/articles/build-a-dictionary-app-in-html-css-javascript.htm 
 // Dictionary starts here
 
 const url = "https://api.dictionaryapi.dev/api/v2/entries/en/";
@@ -45,7 +45,7 @@ function playSound() {
 }
 
 
-// http://talkerscode.com/webtricks/create-custom-audio-player-using-html5-and-javascript.php
+// TalkersCode. (2022, April 15). Create custom audio player using HTML5 and JavaScript. TalkersCode.com - A Web Development And Internet Marketing Blog. Retrieved June 3, 2022, from http://talkerscode.com/webtricks/create-custom-audio-player-using-html5-and-javascript.php 
 // Music player starts here
 document.addEventListener("DOMContentLoaded", function() { startplayer(); }, false);
 var player;
@@ -77,7 +77,7 @@ function change_vol()
 }
 
 
-// https://www.developintelligence.com/blog/2016/10/comparing-javascript-jquery-build-a-pomodoro-timer/
+// Collier, J. (2021, May 6). Comparing Javascript &amp; jQuery through building a pomodoro timer. DevelopIntelligence. Retrieved June 3, 2022, from https://www.developintelligence.com/blog/2016/10/comparing-javascript-jquery-build-a-pomodoro-timer/
 // Pomodoro timer starts here
 var pomodoro = {
 
@@ -186,7 +186,8 @@ window.onload = function(){
   pomodoro.init();
 };
 
-// https://www.foolishdeveloper.com/2021/10/simple-stopwatch-using-javascript.html
+// Jana, S. (2022, April 26). Create a simple stopwatch using JavaScript (tutorial + code). Foolish Developer. Retrieved June 3, 2022, from https://www.foolishdeveloper.com/2021/10/simple-stopwatch-using-javascript.html
+// Stopwatch timer starts here
 let [milliseconds,seconds,minutes,hours] = [0,0,0,0];
 let timerRef = document.querySelector('.timerDisplay');
 let int = null;
