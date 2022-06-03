@@ -782,6 +782,7 @@ input[type="image"]
     color: #025493;
     font-size: 36px;
     min-width: 160px;
+    transform: translate(-10px);
 }
   
 .stopwatch_buttons{
