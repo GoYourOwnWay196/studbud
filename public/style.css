@@ -794,10 +794,6 @@ input[type="image"]
   padding-left: 30px;
 }
 
-.time {
-  min-width: 1000px;
-}
-
 #pauseTimer {
   margin-left: 10px;
   margin-right: 10px;
@@ -829,6 +825,26 @@ input[type="image"]
 
 #seconds {
   font-size: 36px; 
+}
+
+#work {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#shortBreak {
+  margin-top: 10px;
+  margin-bottom: 10px; 
+}
+
+#longBreak {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#stop {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
   #wrapper
