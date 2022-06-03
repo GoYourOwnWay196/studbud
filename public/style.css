@@ -786,9 +786,9 @@ input[type="image"]
   }
 
   .kanban-heading .text-block-div{
-    transform: translate(100px);
+    transform: translate(50px);
   }
-  
+
   .div-block .text-block {
   padding-top: 0;
   }
