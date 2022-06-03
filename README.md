@@ -1,11 +1,10 @@
 # Justin Kwon - DECO2017 StudBud Web App Prototype
 ## Overview 
-SID: 500501937
-*NOTE: GoYourOwnWay196 is an account I had to make because I couldn't access my original JK3287 account while starting this project. We are the same person!
-
 As stated in the design brief, my web application StudBud focuses on employing a number of tools to help fellow students in need of studying. These tools include a stopwatch, task manager and dictionary, alongside a music player at the bottom of each page in the app. Icons and music are all custom made - now that I think about it I guess I prioritised stylisation over the rest of the project...
 
-Start from **index.html**, then click on **create.html** for the dashboard. App pages include **stopwatch.html** and **pomodoro.html** for the timer, task.html for the kanban board and **dictionary.html** for the dictionary. All are accessible from the **public** folder, including the scripts and music. I made the graphics, but I uploaded them to **imgBB**.
+Start from **index.html**, then click on **create.html** for the dashboard. App pages include **stopwatch.html** and **pomodoro.html** for the timer, task.html for the kanban board and **dictionary.html** for the dictionary.
+
+Two css files have been made: **style_start.css** for the homepage, and **style.css** for the rest. Three js files have been made: **script.js** for the majority of the app, **dictionary.js** for the dictionary and **server.js** for hosting.
 
 ## Feedback + Challenges
 As evident in my feedback for the design brief, I was awarded for my design approach to help students study in the most positive mood, with simple colour psychology and rule of thirds dictating many pages of the StudBud website.
@@ -47,3 +46,20 @@ I admit, initially I had no idea where to put my music player so I just slapped 
 As an admittedly last-minute attempt at completing my web application, I added a dictionary page and formatted it in a similar way to the task manager and stopwatch pages. 
 <img src="https://i.ibb.co/frLDT52/Stud-Bud-006.png" alt="Dictionary" title="Dictionary">
 
+## Bibliography
+### Codes
+The elements **tricolumn** and **onecolumn** are from my other web design assessment which can be accessed here: https://replit.com/@JustinKwon2/Gold-Foundation-MAIN-PAGE#index.html
+
+- TalkersCode. (2022, April 15). Create custom audio player using HTML5 and JavaScript. TalkersCode.com - A Web Development And Internet Marketing Blog. Retrieved June 3, 2022, from http://talkerscode.com/webtricks/create-custom-audio-player-using-html5-and-javascript.php
+- Jana, S. (2022, April 26). Create a simple stopwatch using JavaScript (tutorial + code). Foolish Developer. Retrieved June 3, 2022, from https://www.foolishdeveloper.com/2021/10/simple-stopwatch-using-javascript.html
+- Collier, J. (2021, May 6). Comparing Javascript &amp; jQuery through building a pomodoro timer. DevelopIntelligence. Retrieved June 3, 2022, from https://www.developintelligence.com/blog/2016/10/comparing-javascript-jquery-build-a-pomodoro-timer/
+- Karthik. (2022, April 25). Creating a Kanban Board with HTML, CSS &amp; JavaScript. Karthik Dev Articles. Retrieved June 3, 2022, from https://karthikdevarticles.com/creating-a-kanban-board-with-html-css-and-javascript
+- Yelne, P. (2022, January 3). Build a dictionary app in HTML CSS &amp; JavaScript. Codegyan. Retrieved June 3, 2022, from https://codegyan.in/articles/build-a-dictionary-app-in-html-css-javascript.htm
+  
+### Pictures
+- Presta, H. (2019, August 16). Tips for achieving school/work balance. UMKC Roo News. Retrieved June 3, 2022, from https://info.umkc.edu/unews/tips-for-achieving-school-work-balance/
+- Department of Foreign Affairs and Trade. (2013, November 6). Group of young people texting on mobile phones. Flickr. Retrieved June 3, 2022, from https://www.flickr.com/photos/106853342@N04/10699648676 
+
+
+### Music
+Credit to Toby Fox, who inspired me to make my little song on the music player!!
