@@ -9,7 +9,6 @@
 /* Navigation bar is fixed and is positioned at the left */
 .navbar {
   position: fixed;
-  z-index: -1;
   left: 0%;
   top: 0%;
   right: auto;
