@@ -794,15 +794,15 @@ input[type="image"]
 }
 
 #pauseTimer {
-  font-size: 8px;
+  font-size: 16px;
 }
 
 #startTimer {
-  font-size: 8px;  
+  font-size: 16px;  
 }
 
 #resetTimer {
-  font-size: 8px;  
+  font-size: 16px;  
 }
 
   #wrapper
