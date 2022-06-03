@@ -794,6 +794,10 @@ input[type="image"]
   padding-left: 30px;
 }
 
+.time {
+  min-width: 100px;
+}
+
 #pauseTimer {
   margin-left: 10px;
   margin-right: 10px;
@@ -816,15 +820,15 @@ input[type="image"]
 }
 
 #minutes {
-  font-size: 16px; 
+  font-size: 36px; 
 }
 
 #colon {
-  font-size: 16px; 
+  font-size: 36px; 
 }
 
 #seconds {
-  font-size: 16px; 
+  font-size: 36px; 
 }
 
   #wrapper
