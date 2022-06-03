@@ -795,12 +795,7 @@ input[type="image"]
 }
 
 .time {
-    box-shadow: none;
-    font-family: 'Pixeboy', sans-serif;
-    color: #025493;
-    font-size: 48px;
-    min-width: 160px;
-    transform: translate(-20px);
+  min-width: 1000px;
 }
 
 #pauseTimer {
