@@ -819,6 +819,10 @@ input[type="image"]
   min-width: 400px;
 }
 
+#pomodoro_time {
+  min-width: 400px;
+}
+
 #pomodoro_buttons button:first-child { 
     margin-left: 88px;
 }
