@@ -816,7 +816,7 @@ input[type="image"]
 }
 
 #time {
-  min-width: 380px;
+  min-width: 320px;
 }
 
 #pomodoro_buttons button:first-child { 
