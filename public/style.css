@@ -791,7 +791,7 @@ input[type="image"]
 
   .kanban-container h3{
     transform: translate(80px);
-    min-width: 200px;
+    min-width: 100px;
   }
 
   .div-block .text-block {
