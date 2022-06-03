@@ -164,16 +164,11 @@
   float: left;
   width: 32.8%;
   padding: 0px;
-  height: 580px;
   padding-bottom: 0px;
   background-color: #fff;
 }
 
 .tricolumn .text-block {
-  padding-top: 145px;
-}
-
-.tricolumn_task .text-block {
   padding-top: 145px;
 }
 
@@ -787,7 +782,7 @@ input[type="image"]
   .tricolumn_task {
     width: 100%;
   }
-  
+
   .div-block .text-block {
   padding-top: 0;
   }
