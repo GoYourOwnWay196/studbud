@@ -881,11 +881,13 @@ input[type="image"]
 #shortBreak {
   margin-top: 10px;
   margin-bottom: 10px; 
+  background-color: #366191
 }
 
 #longBreak {
   margin-top: 10px;
   margin-bottom: 10px;
+  background-color: #4E739E
 }
 
 #stop {
