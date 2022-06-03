@@ -790,8 +790,8 @@ input[type="image"]
   padding-left: 50px;
 }
 
-.pomodoro_buttons{
-  transform: translate(-20px);
+.pomodoro_buttons button{
+  transform: translate(-200px);
 }
 
 .stopwatch_container h3 {
@@ -817,18 +817,6 @@ input[type="image"]
   margin-right: 10px;
   font-size: 16px; 
   padding: 10px 20px;
-}
-
-#minutes {
-  font-size: 36px; 
-}
-
-#colon {
-  font-size: 36px; 
-}
-
-#seconds {
-  font-size: 36px; 
 }
 
 #work {
