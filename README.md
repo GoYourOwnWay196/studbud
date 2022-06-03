@@ -1,5 +1,8 @@
 # Justin Kwon - DECO2017 StudBud Web App Prototype
 ## Overview 
+SID: 500501937
+*NOTE: GoYourOwnWay196 is an account I had to make because I couldn't access my original JK3287 account while starting this project. We are the same person!
+
 As stated in the design brief, my web application StudBud focuses on employing a number of tools to help fellow students in need of studying. These tools include a stopwatch, task manager and dictionary, alongside a music player at the bottom of each page in the app. Icons and music are all custom made - now that I think about it I guess I prioritised stylisation over the rest of the project...
 
 Start from **index.html**, then click on **create.html** for the dashboard. App pages include **stopwatch.html** and **pomodoro.html** for the timer, task.html for the kanban board and **dictionary.html** for the dictionary. All are accessible from the **public** folder, including the scripts and music. I made the graphics, but I uploaded them to **imgBB**.
