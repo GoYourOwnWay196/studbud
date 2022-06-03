@@ -1,6 +1,6 @@
 # Justin Kwon - DECO2017 StudBud Web App Prototype
 ## Overview 
-As stated in the design brief, my web application StudBud focuses on employing a number of tools to help fellow students in need of studying. These tools include a stopwatch, task manager and dictionary, alongside a music player at the bottom of each page in the app. Icons and music are all custom made - now that I think about it I guess I prioritised stylisation over the rest of the project... The program should work on both widescreen (desktop) and on max-width: 600px mode (mobile/tablet mode), although I did not get to fix the navbar/sliding/music player.
+As stated in the design brief, my web application StudBud focuses on employing a number of tools to help fellow students in need of studying. These tools include a stopwatch, task manager and dictionary, alongside a music player at the bottom of each page in the app. Icons and music are all custom made - now that I think about it I guess I prioritised stylisation over the rest of the project...
 
 Start from **index.html**, then click on **create.html** for the dashboard. App pages include **stopwatch.html** and **pomodoro.html** for the timer, task.html for the kanban board and **dictionary.html** for the dictionary.
 
@@ -32,6 +32,10 @@ I also implemented navigation on the timer, where a click on the bottom can alte
 ### Challenge 2
 As response to my second challenge, regarding my design choices, I looked back at my design for the kanban board task manager and realised, although tasks can be in different colours, users would be unable to visually determine them as all columns are white. I decided to leave the tasks the same colour, but making the columns darker in correlation to their urgency. 
 <img src="https://i.ibb.co/f26m6Dx/Stud-Bud-004.png" alt="Kanban board evolution" title="Kanban board evolution">
+
+A similar case was made in regards to the buttons in the stopwatch pages.
+<img src="https://i.ibb.co/0Fvj1LW/Studbud-007.png" alt="Pomodoro button evolution" title="Pomodoro button evolution">
+
 
 I admit, initially I had no idea where to put my music player so I just slapped on a giant circle with a play button and called it a day. For the finished product, I decided to place it on the bottom of the application, as a small bar in which you can start, stop, reset and adjust the volume of.
 <img src="https://i.ibb.co/qNZZQZq/Stud-Bud-005.png" alt="Finally got an actual music player" title="Music player">
