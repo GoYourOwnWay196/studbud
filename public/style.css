@@ -735,7 +735,7 @@ input[type="image"]
     border-radius: 5px;
     cursor: pointer;
     outline: none;
-  margin-left: 150px;
+    margin-left: 150px;
    -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
@@ -815,11 +815,13 @@ input[type="image"]
   padding: 10px 20px;
 }
 
+#pomodoro_buttons button { 
+    margin-left: -20px;
+}
+
 #work {
   margin-top: 10px;
   margin-bottom: 10px;
-  padding-left: -100px;
-  transform: translate(-200px);
 }
 
 #shortBreak {
