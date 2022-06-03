@@ -645,6 +645,7 @@ textarea {
   width: 100%;
   padding: 0.5rem 2.7rem;
   border-radius: 0.3rem;
+  border : 5px solid #025493;
   font-size: 1rem;
   font-family: 'Pixeboy', sans-serif;
 }
