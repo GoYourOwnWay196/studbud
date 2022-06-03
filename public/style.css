@@ -827,6 +827,10 @@ input[type="image"]
   max-width: 300px;
 }
 
+.create-new-task-block {
+  transform: translate(-200px);
+}
+
 #pauseTimer {
   margin-left: 10px;
   margin-right: 10px;
