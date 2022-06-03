@@ -828,7 +828,7 @@ input[type="image"]
 }
 
 .create-new-task-block {
-  transform: translate(-200px);
+  transform: translate(-300px);
 }
 
 #pauseTimer {
