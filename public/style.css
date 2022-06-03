@@ -762,7 +762,7 @@ input[type="image"]
     border-radius: 5px;
     cursor: pointer;
     outline: none;
-    margin-left: 135px;
+    margin-left: 130px;
    -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
