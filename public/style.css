@@ -276,7 +276,7 @@ p {
     align-items: center;
     justify-content: space-around;
     border-radius: 5px;
-    box-shadow: 0 0 20px rgba(0,139,253,0.25);
+    box-shadow: 0 20px 40px rgba(38, 33, 61, 0.2);
     font-family: 'Pixeboy', sans-serif;
     color: #025493;
     font-size: 60px;
@@ -494,12 +494,14 @@ textarea {
     border-radius: 10px;
     box-shadow: 0 20px 40px rgba(38, 33, 61, 0.2);
 }
+
 .search-box {
     color: #fff;
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
+
 .search-box input {
     color: #fff;
     padding: 5px;
@@ -509,6 +511,7 @@ textarea {
     border-bottom: 3px solid #025493;
     font-size: 16px;
 }
+
 .search-box button {
     padding: 15px 0;
     width: 25%;
@@ -518,13 +521,14 @@ textarea {
     color: #ffffff;
     border-radius: 5px;
 }
+
 .result {
     position: relative;
     background-color: #fff;
 }
 .result h3 {
     font-size: 30px;
-    color: #1f194c;
+    color: #025493;
     background-color: #fff;
 }
 .result .word {
@@ -550,11 +554,11 @@ textarea {
 }
 .word-meaning {
     background-color: #fff;
-    color: #575a7b;
+    color: #333;
 }
 .word-example {
     background-color: #fff;
-    color: #575a7b;
+    color: #333;
     font-style: italic;
     border-left: 5px solid #025493;
     padding-left: 20px;
@@ -792,6 +796,11 @@ input[type="image"]
 
 .stopwatch_container h3 {
   padding-left: 30px;
+}
+
+.dictionary_container {
+  box-shadow: none;
+  max-width: 200px;
 }
 
 #pauseTimer {
