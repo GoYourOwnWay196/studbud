@@ -815,6 +815,10 @@ input[type="image"]
   padding: 10px 20px;
 }
 
+#pomodoro_timer {
+  min-width: 400px;
+}
+
 #pomodoro_buttons button:first-child { 
     margin-left: 88px;
 }
