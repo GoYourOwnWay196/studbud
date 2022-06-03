@@ -831,6 +831,10 @@ input[type="image"]
   transform: translate(-300px);
 }
 
+.create-new-task-block .form-row-label{
+  min-width: 80px;
+}
+
 #pauseTimer {
   margin-left: 10px;
   margin-right: 10px;
