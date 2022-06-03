@@ -790,6 +790,11 @@ input[type="image"]
   padding-left: 50px;
 }
 
+.pomodoro_buttons{
+  padding-left: -100px;
+  transform: translate(-200px);
+}
+
 .stopwatch_container h3 {
   padding-left: 30px;
 }
@@ -818,7 +823,6 @@ input[type="image"]
 #work {
   margin-top: 10px;
   margin-bottom: 10px;
-  left: 100px;
 }
 
 #shortBreak {
