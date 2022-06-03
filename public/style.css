@@ -830,25 +830,27 @@ input[type="image"]
 #work {
   margin-top: 10px;
   margin-bottom: 10px;
-  transform: translate(-20px);
+  margin-left: -40px;
 }
 
 #shortBreak {
   margin-top: 10px;
   margin-bottom: 10px; 
   transform: translate(-20px);
+  margin-left: -40px;
 }
 
 #longBreak {
   margin-top: 10px;
   margin-bottom: 10px;
   transform: translate(-20px);
+  margin-left: -40px;
 }
 
 #stop {
   margin-top: 10px;
   margin-bottom: 10px;
-  transform: translate(-20px);
+  margin-left: -40px;
 }
 
   #wrapper
