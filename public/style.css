@@ -322,6 +322,7 @@ p {
     margin: 60px auto 0 auto;
     display: flex;
     justify-content: space-around;
+    padding: 16px 32px;
 }
 .stopwatch_buttons button{
     width: 120px;
@@ -796,19 +797,19 @@ input[type="image"]
 #pauseTimer {
   margin-left: 10px;
   margin-right: 10px;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 #startTimer {
   margin-left: 10px;
   margin-right: 10px;
-  font-size: 12px; 
+  font-size: 16px; 
 }
 
 #resetTimer {
   margin-left: 10px;
   margin-right: 10px;
-  font-size: 12px; 
+  font-size: 16px; 
 }
 
   #wrapper
