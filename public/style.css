@@ -777,7 +777,9 @@ input[type="image"]
     box-shadow: none;
     font-family: 'Pixeboy', sans-serif;
     color: #025493;
-    font-size: 20px;
+    font-size: 36px;
+    padding: 6px 0;
+
 }
   
 
