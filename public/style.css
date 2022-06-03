@@ -9,12 +9,14 @@
 /* Navigation bar is fixed and is positioned at the left */
 .navbar {
   position: fixed;
+  z-index: -1;
   left: 0%;
   top: 0%;
   right: auto;
   bottom: 0%;
   width: 160px;
   background-color: #4294f8;
+
 }
 
 .nav-flex {
@@ -784,11 +786,11 @@ input[type="image"]
 }
   
 .stopwatch_buttons{
-  padding-left: 100px;
+  padding-left: 80px;
 }
 
 .stopwatch_container h3 {
-  padding-left: 100px;
+  padding-left: 80px;
 }
 
   #wrapper
