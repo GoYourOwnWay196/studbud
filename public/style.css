@@ -785,7 +785,7 @@ input[type="image"]
     transform: translate(-100px);
   }
 
-  .kanban-heading {
+  .kanban-heading h3{
     transform: translate(100px);
   }
 
