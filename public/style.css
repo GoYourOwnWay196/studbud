@@ -790,6 +790,10 @@ input[type="image"]
   padding-left: 50px;
 }
 
+.pomodoro_buttons{
+  transform: translate(-20px);
+}
+
 .stopwatch_container h3 {
   padding-left: 30px;
 }
@@ -830,27 +834,21 @@ input[type="image"]
 #work {
   margin-top: 10px;
   margin-bottom: 10px;
-  margin-left: -40px;
 }
 
 #shortBreak {
   margin-top: 10px;
   margin-bottom: 10px; 
-  transform: translate(-20px);
-  margin-left: -40px;
 }
 
 #longBreak {
   margin-top: 10px;
   margin-bottom: 10px;
-  transform: translate(-20px);
-  margin-left: -40px;
 }
 
 #stop {
   margin-top: 10px;
   margin-bottom: 10px;
-  margin-left: -40px;
 }
 
   #wrapper
