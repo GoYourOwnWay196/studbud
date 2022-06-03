@@ -798,18 +798,21 @@ input[type="image"]
   margin-left: 10px;
   margin-right: 10px;
   font-size: 16px;
+  padding: 20px 40px;
 }
 
 #startTimer {
   margin-left: 10px;
   margin-right: 10px;
   font-size: 16px; 
+  padding: 20px 40px;
 }
 
 #resetTimer {
   margin-left: 10px;
   margin-right: 10px;
   font-size: 16px; 
+  padding: 20px 40px;
 }
 
   #wrapper
