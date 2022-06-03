@@ -795,7 +795,7 @@ input[type="image"]
 }
 
 .time {
-  width: 100%;
+  width: 200px;
 }
 
 #pauseTimer {
