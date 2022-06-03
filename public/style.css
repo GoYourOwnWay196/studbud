@@ -771,7 +771,7 @@ input[type="image"]
   .stopwatch_container {
     width: 40%;
     min-width: 200px;
-    padding-left: 120px;
+    padding-left: 80px;
   }
 
   .timerDisplay{
