@@ -786,7 +786,11 @@ input[type="image"]
   }
 
   .kanban-heading .text-block-div{
-    transform: translate(50px);
+    transform: translate(80px);
+  }
+
+  .kanban-container h3{
+    transform: translate(80px);
   }
 
   .div-block .text-block {
