@@ -347,8 +347,6 @@ p {
     border-radius: 5px;
     cursor: pointer;
     outline: none;
-    padding-left: 20px;
-    padding-right: 20px;
 }
 /* Karthik. (2022, April 25). Creating a Kanban Board with HTML, CSS &amp; JavaScript. Karthik Dev Articles. Retrieved June 3, 2022, from https://karthikdevarticles.com/creating-a-kanban-board-with-html-css-and-javascript */
 /* Task manager elements */
@@ -403,7 +401,7 @@ p {
 .task {
   background-color: #ffffff;
   margin: 0.2rem 0rem 0.3rem 0rem;
-  border: 0.1rem solid black;
+  border: 0.1rem solid #025493;
   border-radius: 0.2rem;
   padding: 0.5rem 0.2rem 0.5rem 2rem;
 }
@@ -645,10 +643,10 @@ textarea {
   background-color: #025493;
   border-radius: 0.2rem;
   width: 100%;
-  border: 0.1rem solid black;
   padding: 0.5rem 2.7rem;
   border-radius: 0.3rem;
   font-size: 1rem;
+  font-family: 'Pixeboy', sans-serif;
 }
 
 #wrapper
