@@ -782,15 +782,14 @@ input[type="image"]
     color: #025493;
     font-size: 36px;
     min-width: 160px;
-    padding: 6px 0;
 }
   
 .stopwatch_buttons{
-  padding-left: 40px;
+  padding-left: 30px;
 }
 
 .stopwatch_container h3 {
-  padding-left: 40px;
+  padding-left: 30px;
 }
 
   #wrapper
