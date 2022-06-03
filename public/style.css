@@ -160,6 +160,15 @@
   background-color: #fff;
 }
 
+.tricolumn_task {
+  float: left;
+  width: 32.8%;
+  padding: 0px;
+  height: 580px;
+  padding-bottom: 0px;
+  background-color: #fff;
+}
+
 .tricolumn .text-block {
   padding-top: 145px;
 }
