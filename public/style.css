@@ -786,12 +786,23 @@ input[type="image"]
 }
   
 .stopwatch_buttons{
-  font-size: 8px;
   padding-left: 30px;
 }
 
 .stopwatch_container h3 {
   padding-left: 30px;
+}
+
+#pauseTimer {
+  font-size: 8px;
+}
+
+#startTimer {
+  font-size: 8px;  
+}
+
+#resetTimer {
+  font-size: 8px;  
 }
 
   #wrapper
