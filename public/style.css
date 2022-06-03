@@ -787,8 +787,6 @@ input[type="image"]
   
 .stopwatch_buttons{
   padding-left: 30px;
-  margin-left: 10px;
-  margin-right: 10px;
 }
 
 .stopwatch_container h3 {
@@ -796,15 +794,21 @@ input[type="image"]
 }
 
 #pauseTimer {
+  margin-left: 10px;
+  margin-right: 10px;
   font-size: 12px;
 }
 
 #startTimer {
-  font-size: 12px;  
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 12px; 
 }
 
 #resetTimer {
-  font-size: 12px;  
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 12px; 
 }
 
   #wrapper
