@@ -773,7 +773,7 @@ input[type="image"]
     width: 40%;
     min-width: 200px;
     padding-left: 100px;
-    transform: translate(50px);
+    transform: translate(2px);
   }
 
   .timerDisplay{
