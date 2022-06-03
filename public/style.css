@@ -293,6 +293,7 @@ p {
 
 /* Custom buttons/icons */
 .studbud_button {
+    
     display: inline-block;
     border: 2px solid #025493;
     border-radius: 5px;
@@ -303,6 +304,7 @@ p {
     font-size: 24px;
     text-align: center;
     margin: auto;
+    margin-top: 20px;
     padding: 16px 32px;
   }
 
