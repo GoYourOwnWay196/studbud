@@ -816,7 +816,7 @@ input[type="image"]
 }
 
 #pomodoro_buttons button:first-child { 
-    margin-left: 90px;
+    margin-left: 85px;
 }
 
 #pomodoro_buttons button:not(:first-child) { 
