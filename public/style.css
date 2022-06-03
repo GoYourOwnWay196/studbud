@@ -815,7 +815,7 @@ input[type="image"]
   padding: 10px 20px;
 }
 
-#pomodoro_buttons button { 
+#pomodoro_buttons button:not(:first-child) { 
     margin-left: 120px;
 }
 
