@@ -53,7 +53,10 @@
         <h3>Create tasks and drag them depending on your progress</h3>
         <div class="kanban-board">
 
+          <div class="columns row">
+
           <!-- Initialise the 'in progress' section, allow tasks to be dragged there -->
+          <div class="tricolumn">
             <div class="kanban-block" id="todo" ondrop="drop(event)" ondragover="allowDrop(event)">
                 <strong>Requested</strong>
                 <div class="task-button-block">
@@ -67,15 +70,22 @@
                     <span>First Task</span>
                 </div>
             </div>
+            </div>
 
             <!-- Initialise the 'in progress' section, allow tasks to be dragged there -->
+            <div class="tricolumn">
             <div class="kanban-block" id="inprogress" ondrop="drop(event)" ondragover="allowDrop(event)">
                 <strong>In Progress</strong>
             </div>
+          </div>
 
             <!-- Initialise the 'done' section, allow tasks to be dragged there -->
+            <div class="tricolumn">
             <div class="kanban-block" id="done" ondrop="drop(event)" ondragover="allowDrop(event)">
                 <strong>Done</strong>
+            </div>
+          </div>
+
             </div>
 
             <!-- Show new task menu when clicking on the create button -->
