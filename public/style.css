@@ -160,6 +160,7 @@
   background-color: #fff;
 }
 
+/* Task board split into thirds, but no borders unlike the dashboard page */
 .tricolumn_task {
   float: left;
   width: 32.8%;
@@ -258,6 +259,8 @@ p {
   text-align: center;
 }
 
+/* Jana, S. (2022, April 26). Create a simple stopwatch using JavaScript (tutorial + code). Foolish Developer. Retrieved June 3, 2022, from https://www.foolishdeveloper.com/2021/10/simple-stopwatch-using-javascript.html */
+/* Stopwatch */
 .stopwatch_container {
   background-color: #ffffff;
   width: 40%;
@@ -273,8 +276,6 @@ p {
   border-radius: 10px;
 }
 
-/* Jana, S. (2022, April 26). Create a simple stopwatch using JavaScript (tutorial + code). Foolish Developer. Retrieved June 3, 2022, from https://www.foolishdeveloper.com/2021/10/simple-stopwatch-using-javascript.html */
-/* Stopwatch */
 .timerDisplay{
     position: relative;
     width: 92%;
@@ -336,6 +337,8 @@ p {
     justify-content: space-around;
     padding: 16px 32px;
 }
+
+/* Buttons - in different colours */
 .stopwatch_buttons button{
     width: 120px;
     height: 45px;
@@ -368,6 +371,7 @@ p {
   flex-direction: column;
 }
 
+/* The boards */
 .kanban-heading {
   background-color: #ffffff;
   display: flex;
@@ -439,11 +443,12 @@ p {
   font-weight: 700;
 }
 
+/* The prompt that appears when you create a new task */
+
 .create-new-task-block {
   background-color: #ffffff;
   display: none;
   font-family: 'Glacial Indifference', sans-serif;
-  /* display: flex; */
   background: #025493;
   width: 64.4%;
   flex-direction: column;
@@ -516,6 +521,7 @@ textarea {
     box-shadow: 0 20px 40px rgba(38, 33, 61, 0.2);
 }
 
+/* Search elements */
 .search-box {
     color: #fff;
     width: 100%;
@@ -544,6 +550,7 @@ textarea {
     font-family: 'Pixeboy', sans-serif;
 }
 
+/* Formatted result */
 .result {
     position: relative;
     background-color: #fff;
@@ -629,25 +636,21 @@ textarea {
 
 #inprogress {
   background-color: #D0D9E8;
-  /* display: none; */
 }
 
 #inprogress strong {
   background-color: #D0D9E8;
-  /* display: none; */
 }
 
 #done {
   background-color: #B9CCEA;
-  /* display: none; */
 }
 
 #done strong{
   background-color: #B9CCEA;
-  /* display: none; */
 }
 
-
+/* Button for task page */
 #task-button {
   margin: 0.2rem 0rem 0.1rem 0rem;
   background-color: #025493;
@@ -660,12 +663,13 @@ textarea {
   font-family: 'Pixeboy', sans-serif;
 }
 
-#wrapper
-{
+/* Music player */
+#wrapper {
  text-align:center;
  margin:0 auto;
  width:995px;
 }
+
 #player
 {
  background-color:#025493;
@@ -693,11 +697,11 @@ input[type="image"]
 
 /* Collier, J. (2021, May 6). Comparing Javascript &amp; jQuery through building a pomodoro timer. DevelopIntelligence. Retrieved June 3, 2022, from https://www.developintelligence.com/blog/2016/10/comparing-javascript-jquery-build-a-pomodoro-timer/ */
 /* Pomodoro */
-#pomodoro_app{
+#pomodoro_app {
   background-color:#ffffff;
 }
 
-#pomodoro_container{
+#pomodoro_container {
   background-color:#ffffff;
   border:1px solid #333;
   border-radius :20px;
@@ -711,7 +715,7 @@ input[type="image"]
   
 }
 
-#pomodoro_timer{ 
+#pomodoro_timer { 
   background-color:#ffffff;
   color:#f00; 
   font-size:50px; 
@@ -730,7 +734,8 @@ input[type="image"]
   
 }
 
-#time{
+/* A small div containing the time */
+#time {
   margin-top:70px;
   margin: auto;
   width: 25%;
@@ -743,7 +748,7 @@ input[type="image"]
   font-size: 60px;
 }
 
-#filler{
+#filler {
   height: 0px;
   width: 200px;
   position:absolute;
@@ -751,6 +756,7 @@ input[type="image"]
   background-color:#ffffff;
 }
 
+/* Buttons in different colours */
 #pomodoro_buttons button { 
   width: 120px;
     height: 45px;
@@ -779,7 +785,7 @@ input[type="image"]
   background-color: red;
 }
 
-
+/* Fonts upload */
 @font-face {
     font-family: 'NEXT ART', sans-serif;
     font-weight: 700;
@@ -802,7 +808,10 @@ input[type="image"]
     font-display: swap;
   }
 
+  /* The (attempted) mobile version!! */
 @media screen and (max-width: 600px) {
+
+  /* Columns must be on top of each other */
   .tricolumn {
     width: 100%;
   }
@@ -812,6 +821,7 @@ input[type="image"]
     transform: translate(-100px);
   }
 
+  /* Kanban - A bit of movement must be made with text */
   .kanban-heading .text-block-div{
     transform: translate(80px);
   }
@@ -825,6 +835,7 @@ input[type="image"]
   padding-top: 0;
   }
 
+  /* Stopwatch - A bit of movement must be made with containers too */
   .stopwatch_container {
     width: 40%;
     min-width: 200px;
@@ -841,6 +852,7 @@ input[type="image"]
     transform: translate(-20px);
 }
   
+/* A bit of movement must be made with buttons as well!! */
 .stopwatch_buttons{
   padding-left: 50px;
 }
@@ -849,19 +861,23 @@ input[type="image"]
   padding-left: 30px;
 }
 
+/* Discard of shadows */
 .dictionary_container {
   box-shadow: none;
   max-width: 300px;
 }
 
+/* Dictionary prompt must be kept at the left to be visible */
 .create-new-task-block {
   transform: translate(-300px);
 }
 
+/* Width must be smaller in a mobile screen */
 .create-new-task-block .form-row-label{
   min-width: 80px;
 }
 
+/* Buttons must be smaller in a mobile screen */
 #pauseTimer {
   margin-left: 10px;
   margin-right: 10px;
@@ -888,7 +904,7 @@ input[type="image"]
 }
 
 #pomodoro_buttons button:first-child { 
-    margin-left: 88px;
+  margin-left: 88px;
 }
 
 #pomodoro_buttons button:not(:first-child) { 
