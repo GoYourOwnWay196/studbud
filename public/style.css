@@ -778,11 +778,11 @@ input[type="image"]
 @media screen and (max-width: 600px) {
   .tricolumn {
     width: 100%;
-    transform: translate(-80px);
   }
 
   .tricolumn_task {
     width: 100%;
+    transform: translate(-80px);
   }
 
   .div-block .text-block {
