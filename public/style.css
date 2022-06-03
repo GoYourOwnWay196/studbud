@@ -532,6 +532,7 @@ textarea {
     outline: none;
     color: #ffffff;
     border-radius: 5px;
+    font-family: 'Pixeboy', sans-serif;
 }
 
 .result {
