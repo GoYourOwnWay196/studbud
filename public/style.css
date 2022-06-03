@@ -347,7 +347,8 @@ p {
     border-radius: 5px;
     cursor: pointer;
     outline: none;
-    padding-left: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 /* Karthik. (2022, April 25). Creating a Kanban Board with HTML, CSS &amp; JavaScript. Karthik Dev Articles. Retrieved June 3, 2022, from https://karthikdevarticles.com/creating-a-kanban-board-with-html-css-and-javascript */
 /* Task manager elements */
