@@ -348,6 +348,15 @@ p {
     cursor: pointer;
     outline: none;
 }
+
+.stopwatch_buttons button:nth-child(2){
+  background-color: #4E739E;
+}
+
+.stopwatch_buttons button:nth-child(3){
+  background-color: red;
+}
+
 /* Karthik. (2022, April 25). Creating a Kanban Board with HTML, CSS &amp; JavaScript. Karthik Dev Articles. Retrieved June 3, 2022, from https://karthikdevarticles.com/creating-a-kanban-board-with-html-css-and-javascript */
 /* Task manager elements */
 .kanban-container {
